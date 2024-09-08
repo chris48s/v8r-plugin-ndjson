@@ -1,0 +1,24 @@
+{
+  "name": "v8r-plugin-ndjson",
+  "version": "0.1.0",
+  "description": "Newline delimited JSON plugin for v8r",
+  "exports": "./index.js",
+  "type": "module",
+  "files": ["*.js"],
+  "scripts": {
+    "test": "node --test --experimental-test-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris48s/v8r-plugin-ndjson.git"
+  },
+  "author": "chris48s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chris48s/v8r-plugin-ndjson/issues"
+  },
+  "homepage": "https://github.com/chris48s/v8r-plugin-ndjson#readme",
+  "peerDependencies": {
+    "v8r": ">=4.1.0"
+  }
+}

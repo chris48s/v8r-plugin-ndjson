@@ -28,7 +28,7 @@ class NdJson extends BasePlugin {
     return ["ndjson"];
   }
 
-  getSingleResultLogMessage(result, filename, format) {
+  getSingleResultLogMessage(result, format) {
     if (format === "ndjson") {
       return JSON.stringify(result);
     }
